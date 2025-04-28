@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Photography</title>
+    <style>
+        body {
+            background-image: url('https://res.cloudinary.com/drwecifqe/image/upload/v1744978707/bhramaramba-photography-logo_xobyab.png'); 
+            background-size: cover;
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        .image-slider {
+            position: relative;
+            top: 0;
+            left: 0;
+            width: 300%; /* Extend width for sliding effect */
+            height: 100%;
+            display: flex;
+            animation: slide 60s linear infinite;
+            gap:calc(10px)
+        }
+
+        .image-slider img {
+            width: 100vw; /* Each image takes the full viewport width */
+            height: 50vh; /* Each image takes the full viewport height */
+            object-fit: cover;
+        }
+
+        @keyframes slide {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(-200%); } /* Slide through all images */
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            color: #19e1ab;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+        }
+
+        header p {
+            font-size: 1.2em;
+            color: #121212;
+        }
+
+        .testimonial {
+            background-color: #111;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        .testimonial blockquote {
+            font-style: italic;
+            color: #bab;
+        }
+
+        .cta {
+            text-align: center;
+            padding: 40px;
+        }
+
+        .cta a {
+            background-color: #FF6B6B;
+            color: #fff;
+            padding: 15px 30px;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+        }
+
+        footer {
+            padding: 20px;
+            text-align: center;
+            background-color: #1a1a1a;
+            font-size: 0.9rem;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Wedding Photography</h1>
+        <p>Capturing your special moments with elegance and care.</p>
+    </header>
+
+    <!-- Image Background Slider -->
+    <div class="image-slider">
+        <img src="https://res.cloudinary.com/drwecifqe/image/upload/v1744958326/P_W_image_peb74p.jpg" alt="Wedding Image 1">
+        <img src="https://res.cloudinary.com/drwecifqe/image/upload/v1744958325/Wedding_Image_1_wjqxg1.jpg" alt="Wedding Image 2">
+        <img src="https://res.cloudinary.com/drwecifqe/image/upload/v1744958326/Wedding_Image_2_d2uxzs.jpg" alt="Wedding Image 3">
+        <img src="https://res.cloudinary.com/drwecifqe/image/upload/v1744958325/Wedding_Image_4_rhcn97.jpg" alt="Wedding Image 4">
+        <img src="https://res.cloudinary.com/drwecifqe/image/upload/v1744958325/Wedding_Image_5_aflvxf.jpg" alt="Wedding Image 5">
+        <img src="https://res.cloudinary.com/drwecifqe/image/upload/v1744958325/Wedding_Image_3_f4i9iv.jpg" alt="Wedding Image 6">
+        <img src="https://res.cloudinary.com/drwecifqe/image/upload/v1744958326/P_W_image_peb74p.jpg" alt="Wedding Image 1">
+        <img src="https://res.cloudinary.com/drwecifqe/image/upload/v1744958325/Wedding_Image_1_wjqxg1.jpg" alt="Wedding Image 2">
+        <img src="https://res.cloudinary.com/drwecifqe/image/upload/v1744958326/Wedding_Image_2_d2uxzs.jpg" alt="Wedding Image 3">
+        <img src="https://res.cloudinary.com/drwecifqe/image/upload/v1744958325/Wedding_Image_4_rhcn97.jpg" alt="Wedding Image 4">
+        <img src="https://res.cloudinary.com/drwecifqe/image/upload/v1744958325/Wedding_Image_5_aflvxf.jpg" alt="Wedding Image 5">
+        <img src="https://res.cloudinary.com/drwecifqe/image/upload/v1744958325/Wedding_Image_3_f4i9iv.jpg" alt="Wedding Image 6">
+    
+    </div>
+    
+    <section class="testimonial">
+        <blockquote>
+          "We couldn't have asked for a better photography team. Every photo tells a story, and we relive our wedding every time we look at them!"<br>
+          — A Happy Couple
+        </blockquote>
+    </section>
+    
+    <section class="cta">
+        <a href="contact.html">Book an Appointment</a>
+    </section>
+    
+    <footer>
+        &copy; 2025 Bhramaramba Photography. All rights reserved.
+    </footer>
+</body>
+</html>
